@@ -1,0 +1,242 @@
+﻿
+
+================================================================
+			NO. 1 newton
+================================================================
+Secara matematis hukum II Newton dirumuskan sebagai berikut: ΣF = m x a
+
+ sudocode
+
+read  ("resultan gaya")
+
+save variable  (∑f)
+
+read (massa benda)
+ save variable (m)
+
+read (percepatan benda)
+save variable (a)
+
+store "m" with value 600
+
+store "a" with value 2
+
+store "∑f" without any value
+
+calculate "m" times "a"
+
+set "∑f" without value calculation result
+
+show "∑f"
+
+
+Algoritma :
+    1. identifikasi nama variable ( ∑f , m , a)
+    2. menyimpan nama variable 
+    3. memasukkan nilai variable
+    4. menyimpan nilai variable
+    5. kondisional jika data nama variable dan nilai variable jika sudah lanjut step 6 jika tidak ulangi step 1
+    6. menghitung resutan dengan rumus ∑f =  m x a
+    7. menampilkan hasil resultan gaya ( ∑f )
+    8. selesai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+			NO. 2 kabisat
+================================================================
+
+
+read   ("tahun kabisat" )
+save  variable (kabisat)
+read ("tahun")
+save  variable ("tahun")
+read ("bukankabisat")
+save ("bukankabisat")
+store "kabisat" without any value  
+store "tahun" with any value
+store "bukankabisat" without any value  
+
+if  tahun % 4 = 0, and tahun % 100 ≠ 0
+	 do "kabisat"
+	display  "tahun ini kabisat"
+else if tahun % 4 = 0,  tahun % 100 =0, and tahun % 400 = 0
+	 do "kabisat"
+	display = tahun ini kabisan
+else  
+	do "bukankabisat"
+	display "bukan kabisat
+
+
+Algoritma:
+    1. identifikasi nama variable  ( “tahunkabisat “, “tahun", “bukankabisat”) 
+    2. menyimpan nama variable 
+    3. memasukkan nilai variable
+    4. menyimpan nilai variable
+    5. input tahun 
+    6. menghitung tahun kabiisat
+    7. menampilkan hasil tahun kabisat
+    8. selesai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+			NO. 4 kuku panjang
+================================================================
+
+read (kuku panjang)
+save variable "panjang "
+ read (kuku pendek)
+save variable "pendek"
+ read (ukuran kuku)
+save variable "ukuran"
+read (40siswa)
+save variable "siswa"
+
+store "ukuran" without any value
+
+store "siswa" to 1
+while "siswa" <41
+	DISPLAY "siswa" and "ukuran"
+if "ukuran" > 1
+	do "panjang"
+	display "guru akan menghukum"
+else "ukuran" =< 1 
+	do "pendek"
+	display "guru akan menghukum"
+
+Algoritma :
+    1. identifikasi nama variable  ( “tahunkabisat “, “tahun", “bukankabisat”) 
+    2. menyimpan nama variable 
+    3. memasukkan nilai variable
+    4. menyimpan nilai variable
+    5. memeriksa kuku 40 siswa mulai dari siswa no.1 sampai 40
+    6. menidentifikasi kondisi kuku siswa yang  panjang dan pendek
+    7. jika panjang mendapat humuman dan yang pendek mendapat pujian
+    8. selesai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+			NO. 3 cuci baju
+================================================================
+
+STORE "mesin cuci menyala" with 0
+
+WHILE "mwsin cuci menyala" < 20
+  ADD mesin cucui menyala" by 1
+
+DISPLAY "mesin cucu menyala"
+
+
+Algoritma :
+    1. memasukkan pakaian ke mesin cuci
+    2. menghitung jumlah pakaian yang telah masuk  di mesincuci hingga 20 biji
+    3. mengidentifikasi kondisi jika pakaian yang telah dimasukkan mencapai 20 biji mesin menyala jika tidak mengulangi step 1
+    4. mesin menyala
+    5. selesai
+
+
+
+================================================================
+			selesai
+=============================================================== 
